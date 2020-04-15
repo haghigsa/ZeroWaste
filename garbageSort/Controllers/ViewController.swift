@@ -15,6 +15,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var AR : UIButton!
     @IBOutlet var AI : UIButton!
     
+    var soundPlayer : AVAudioPlayer?
     let mainDelegate = UIApplication.shared.delegate as! AppDelegate
     
     @IBAction func unwindToHomeVC(sender : UIStoryboardSegue){
@@ -41,7 +42,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        let soundURL = Bundle.main.path(forResource: "backbgm", ofType: "mp3")
+               let url = URL(fileURLWithPath: soundURL!)
+                soundPlayer = try! AVAudioPlayer.init(contentsOf: url)
+                soundPlayer?.currentTime = 0
+               soundPlayer?.volume = 0.5
+              soundPlayer?.numberOfLoops = -1
+                soundPlayer?.play()
         
     }
     

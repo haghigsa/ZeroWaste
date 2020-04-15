@@ -18,6 +18,7 @@
 		521F1827242EDE540046985E /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F1826242EDE540046985E /* ScanViewController.swift */; };
 		521F1829242EDFB10046985E /* GarbageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 521F1828242EDFB00046985E /* GarbageClassifier.mlmodel */; };
 		524A46A324428C3900D95556 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B7D7F244262C900D77617 /* TableViewController.swift */; };
+		52598BA1244770C600B398F5 /* backbgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52598BA0244770C600B398F5 /* backbgm.mp3 */; };
 		5271A9242442395700D1153B /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271A9232442395700D1153B /* SiteCell.swift */; };
 		529305052444D64300D5755E /* MapKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529305042444D64300D5755E /* MapKitController.swift */; };
 		529305072447614900D5755E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529305062447614900D5755E /* AboutViewController.swift */; };
@@ -48,6 +49,7 @@
 		521F17FE242ECA040046985E /* ARkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkitViewController.swift; sourceTree = "<group>"; };
 		521F1826242EDE540046985E /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		521F1828242EDFB00046985E /* GarbageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GarbageClassifier.mlmodel; sourceTree = "<group>"; };
+		52598BA0244770C600B398F5 /* backbgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backbgm.mp3; sourceTree = "<group>"; };
 		526B7D7F244262C900D77617 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5271A9232442395700D1153B /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
 		529305042444D64300D5755E /* MapKitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		521F1803242ECB1C0046985E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				52598BA0244770C600B398F5 /* backbgm.mp3 */,
 				52930508244763A700D5755E /* ZeroWastePic.jpg */,
 				AEF91A9F2447627800D43A17 /* animal2.jpg */,
 				AEEA1D28244253EE0065E8F4 /* lion.png */,
@@ -253,6 +256,7 @@
 				521F17EB241734B80046985E /* art.scnassets in Resources */,
 				52930509244763A700D5755E /* ZeroWastePic.jpg in Resources */,
 				AEEA1D29244253EE0065E8F4 /* lion.png in Resources */,
+				52598BA1244770C600B398F5 /* backbgm.mp3 in Resources */,
 				521F1804242ECC400046985E /* Main.storyboard in Resources */,
 				AEEA1D2024423EEA0065E8F4 /* crab.png in Resources */,
 				521F17F5241734BB0046985E /* LaunchScreen.storyboard in Resources */,
